@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nassim Bouderbane Marrero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul id="menu" class="menu">
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#languages">Lenguajes</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="img/WhatsApp Image 2024-06-12 at 11.32.09.jpeg" alt="Foto de Nassim" class="profile-photo">
+            <h1>Nassim Bouderbane Marrero</h1>
+            <div class="personal-info">
+                <p>Dirección: Calle Marconela 2</p>
+                <p>Teléfono: 6712304912</p>
+                <p>Email: nassimclase97@gmail.com</p>
+                <p>Fecha de Nacimiento: 9/04/1997</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3><a href="https://github.com/Nassim97bm/Four-Card-Frontend-Mentor.git" target="_blank">Freelance</a></h3>
+                    <p>Proyecto hecho con grid</p>
+                    <img class="img-project" src="img/2mobile-design.jpg" alt="Proyecto 1">
+                </div>
+
+                <div class="project">
+                    <h3><a href="https://github.com/Nassim97bm/Blog-preview-card-name.git" target="_blank">Card Component Preview</a></h3>
+                    <p>Proyecto hecho con flexbox</p>
+                    <img class="img-project" src="img/1mobile-design.jpg" alt="Proyecto 3">
+                </div>
+            </div>
+        </section>
+        <section id="languages">
+            <h2>Lenguajes</h2>
+            <div class="languages-grid">
+                <div class="category">
+                    <h3>Frontend</h3>
+                    <img class="svg" src="img/html-5-svgrepo-com.svg" alt="Frontend Language">
+                    <img class="svg" src="img/css-3-svgrepo-com.svg" alt="">
+                    <img class="svg" src="img/javascript-svgrepo-com.svg" alt="">
+                    <img class="svg" src="img/xml-document-svgrepo-com.svg" alt="">
+                </div>
+                <div class="category">
+                    <h3>Backend</h3>
+                    <img class="svg" src="img/java-svgrepo-com.svg" alt="Backend Language">
+                </div>
+                <div class="category">
+                    <h3>Bases de Datos</h3>
+                    <img class="svg" src="img/mysql-logo-svgrepo-com.svg" alt="Database Language">
+                    <img class="svg" src="img/postgresql-svgrepo-com.svg" alt="Database Language">
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

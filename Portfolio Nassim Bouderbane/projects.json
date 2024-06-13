@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "title": "Freelance",
+            "description": "Proyecto hecho con grid",
+            "url": "https://github.com/Nassim97bm/Four-Card-Frontend-Mentor.git",
+            "image": "img/2mobile-design.jpg"
+        },
+        {
+            "title": "Card Component Preview",
+            "description": "Proyecto hecho con flexbox",
+            "url": "https://github.com/Nassim97bm/Blog-preview-card-name.git",
+            "image": "img/1mobile-design.jpg"
+        }
+    ]
+}
